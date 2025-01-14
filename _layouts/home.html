@@ -5,6 +5,7 @@ layout: default
 {{ content }}
 {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
 
+<b> TESTING NEW THEME TO SEE IF IT WORKS </b>
 {%- if site.posts.size > 0 -%}
   <ul>
     {%- for post in site.posts -%}
